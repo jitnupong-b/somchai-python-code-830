@@ -19,7 +19,6 @@ print("Is Student:", is_student)
 # Exercise 2: Data Types
 # Create variables of different types and print their types
 my_string = "Hello Python"
-myString = "Hello Python"
 my_integer = 42
 my_float = 3.14
 my_boolean = False
@@ -78,16 +77,16 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
-favorite_color = 'Green'
+favorite_color = 
 
 # Integer variable with the current year
-current_year = 2025
+current_year = 
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 3.1416
+favorite_number = 
 
 # Boolean variable indicating if you like pizza
-likes_pizza = True
+likes_pizza = 
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)
