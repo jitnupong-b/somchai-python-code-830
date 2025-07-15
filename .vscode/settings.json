@@ -3,9 +3,12 @@
         "*": false
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "github.copilot.inlineSuggest.enable": false,
 =======
 >>>>>>> upstream/main
+=======
+>>>>>>> 87b4c278313fb5a4e1084cdea8995cd9ebea1ea6
     "editor.quickSuggestions": {
         "other": false,
         "comments": false,
@@ -13,9 +16,14 @@
     },
     "editor.acceptSuggestionOnCommitCharacter": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "editor.acceptSuggestionOnEnter": "off"
 =======
     "editor.acceptSuggestionOnEnter": "off",
     "github.copilot.editor.enableAutoCompletions": false
 >>>>>>> upstream/main
+=======
+    "editor.acceptSuggestionOnEnter": "off",
+    "github.copilot.editor.enableAutoCompletions": false
+>>>>>>> 87b4c278313fb5a4e1084cdea8995cd9ebea1ea6
 }

@@ -20,9 +20,12 @@ print("Is Student:", is_student)
 # Create variables of different types and print their types
 my_string = "Hello Python"
 <<<<<<< HEAD
+<<<<<<< HEAD
 myString = "Hello Python"
 =======
 >>>>>>> upstream/main
+=======
+>>>>>>> 87b4c278313fb5a4e1084cdea8995cd9ebea1ea6
 my_integer = 42
 my_float = 3.14
 my_boolean = False
@@ -82,6 +85,7 @@ print("a =", a, "b =", b, "c =", c)
 
 # String variable containing your favorite color
 <<<<<<< HEAD
+<<<<<<< HEAD
 favorite_color = 'Green'
 
 # Integer variable with the current year
@@ -93,6 +97,8 @@ favorite_number = 3.1416
 # Boolean variable indicating if you like pizza
 likes_pizza = True
 =======
+=======
+>>>>>>> 87b4c278313fb5a4e1084cdea8995cd9ebea1ea6
 favorite_color = 
 
 # Integer variable with the current year
@@ -103,7 +109,10 @@ favorite_number =
 
 # Boolean variable indicating if you like pizza
 likes_pizza = 
+<<<<<<< HEAD
 >>>>>>> upstream/main
+=======
+>>>>>>> 87b4c278313fb5a4e1084cdea8995cd9ebea1ea6
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)
