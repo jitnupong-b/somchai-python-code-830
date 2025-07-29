@@ -4,6 +4,7 @@ fruits = ["apple", "banana", "orange", "grape", "kiwi"]
 print(f"First fruit: {fruits[0]}")      # apple
 print(f"Second fruit: {fruits[1]}")     # banana
 print(f"Last fruit: {fruits[4]}")       # kiwi
+#print("Not found index: ", fruits[5])
 
 # Negative indexing
 print(f"Last fruit: {fruits[-1]}")      # kiwi
@@ -46,6 +47,7 @@ print(fruits)  # ['pear', 'cherry', 'orange', 'grape', 'kiwi']
 removed_fruit = fruits.pop(1)    # Remove and return element at index 1
 print(f"Removed: {removed_fruit}")  # cherry
 print(fruits)  # ['pear', 'orange', 'grape', 'kiwi']
+               # ['', 'orange', 'grape', 'kiwi']
 
 del fruits[0]                    # Delete element at index 0
 print(fruits)  # ['orange', 'grape', 'kiwi']
