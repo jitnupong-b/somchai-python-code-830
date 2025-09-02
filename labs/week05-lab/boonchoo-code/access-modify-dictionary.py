@@ -51,7 +51,7 @@ inventory["bananas"] += 20  # Add more bananas
 print(f"After updates: {inventory}")
 
 # Using update() method
-new_items = {"mangoes": 35, "pineapples": 10}
+new_items = {"mangoes": 35, "pineapples": 10, "apples": 25}
 inventory.update(new_items)
 print(f"After bulk update: {inventory}")
 

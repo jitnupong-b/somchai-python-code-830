@@ -11,6 +11,8 @@ print(f"Students: {list(scores.keys())}")
 print(f"Scores: {list(scores.values())}")
 print(f"All data: {list(scores.items())}")
 
+scores = {"Alice": 85, "Bob": 92, "Charlie": 78, "Diana": 96, "Eve": 89}
+
 # Iterating through dictionary
 print("\nAll students and scores:")
 for name, score in scores.items():
@@ -43,6 +45,6 @@ print(f"Default scores: {default_scores}")
 student_grades = {}
 student_grades.setdefault("Alice", []).append(85)
 student_grades.setdefault("Alice", []).append(92)
-student_grades.setdefault("Bob", []).append(78)
+student_grades.setdefault("Bob", 78)
 print(f"Student grades: {student_grades}")
 

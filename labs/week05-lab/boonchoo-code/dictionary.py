@@ -10,6 +10,14 @@ student = {
     "gpa": 3.8
 }
 
+# Using dict() constructor
+person = dict(name="Bob", age=25, city="Bangkok")
+person = {
+    "name": "Bob",
+    "age": 25,
+    "city": "Bangkok"
+}
+
 # Different data types as values
 mixed_dict = {
     "string": "hello",
