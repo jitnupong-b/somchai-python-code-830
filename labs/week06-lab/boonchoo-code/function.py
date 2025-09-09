@@ -388,23 +388,7 @@ print()
 print("\n=== PART 8: FUNCTION DOCUMENTATION ===")
 
 def calculate_bmi(weight, height):
-    """
-    Calculate Body Mass Index (BMI)
     
-    BMI is a measure of body fat based on height and weight.
-    
-    Args:
-        weight (float): Weight in kilograms
-        height (float): Height in meters
-    
-    Returns:
-        dict: Dictionary containing BMI value and category
-        
-    Example:
-        >>> bmi_info = calculate_bmi(70, 1.75)
-        >>> print(bmi_info['bmi'])
-        22.86
-    """
     if height <= 0 or weight <= 0:
         return {"error": "Height and weight must be positive"}
     
