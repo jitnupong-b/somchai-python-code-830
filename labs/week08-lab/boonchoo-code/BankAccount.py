@@ -28,7 +28,7 @@ class BankAccount:
     # Property decorator for read-only access
     @property
     def transaction_history(self):
-        return self.__transaction_history.copy()
+        return self.__transaction_history
     
     def __str__(self):
         return f"Account {self.account_number}: Balance ${self.__balance}"
@@ -36,6 +36,7 @@ class BankAccount:
 # Usage example
 account = BankAccount("12345", 1000)
 print(account.get_balance())  # 1000
+print(account.transaction_history)
 account.deposit(500)
 account.withdraw(200)
 print(account)  # Account 12345: Balance $1300
