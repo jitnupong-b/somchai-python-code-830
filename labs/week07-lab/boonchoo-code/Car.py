@@ -29,7 +29,7 @@ car1 = Car("Toyota", "Camry", 2022)
 car2 = Car("Honda", "Civic", 2021)
 
 # Accessing class attributes
-print(f"All cars have {Car.wheels} wheels")
+print(f"All cars have {Car.wheels} wheels") 
 print(f"Vehicle type: {Car.get_vehicle_type()}")
 
 # Accessing instance attributes
@@ -39,3 +39,5 @@ print(car2.get_info())
 # Using methods
 print(car1.drive(100))
 print(car2.drive(250))
+
+print(car1.drive(300))
