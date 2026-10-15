@@ -170,9 +170,7 @@ def contact_book():
         print("4. List All Contacts")
         print("5. Update Contact")
         print("6. Delete Contact")
-        print("7. Contacts by Category")
-        print("8. Contact Statistics")
-        print("9. Exit")
+        print("7. Exit")
         print("-"*50)
         
         choice = input("Enter your choice (1-9): ").strip()
