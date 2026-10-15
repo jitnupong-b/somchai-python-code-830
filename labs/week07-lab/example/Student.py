@@ -36,7 +36,11 @@ print(student1.add_course("Data Structures"))
 print(student1.show_courses())
 
 print(student2.introduce())
+<<<<<<< HEAD:labs/week07-lab/boonchoo-code/Student.py
 print(student2.add_course("Math"))
 print(student2.add_course("Chemistry"))
 print(student2.add_course("Physics"))
+=======
+print(student2.add_course("Math and Stat"))
+>>>>>>> upstream/main:labs/week07-lab/example/Student.py
 print(student2.show_courses())
